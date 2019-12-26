@@ -1,0 +1,77 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper img {
+  position: fixed;
+  margin-top: -150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+.wrapper form {
+  padding-top: 100px;
+  width: 350px;
+  height: 500px !important;
+
+  background: rgba(255, 255, 255, .9);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+.wrapper form input {
+  background: rgb(0, 122, 165);;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  color: #fff;
+  font-weight: 400;
+  padding: 15px 50px 15px 20px;
+}
+.wrapper form input:hover,
+.wrapper form input:focus {
+  background: rgb(0, 122, 165);
+}
+.wrapper form input::placeholder {
+  color: #fff;
+  font-weight: bold;
+}
+.wrapper form button {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 15px;
+  background: rgb(0, 122, 165);;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.wrapper form button:hover {
+  background: rgb(0, 122, 165);;
+}
+.wrapper .erro {
+  color: #dc143c;
+  margin-bottom: 5px;
+}
+.wrapper a {
+  color: #fff;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.caixa{
+  margin-top: 230px;
+  text-align: center;
+  bottom: 0;
+}
+#imagem_usuario{
+  width: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: absolute;
+}

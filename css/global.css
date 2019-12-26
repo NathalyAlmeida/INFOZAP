@@ -1,0 +1,52 @@
+/* Adicionando a fonte */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden !important;
+  height: 100%;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  background: #fff;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+span{
+  color: black;
+}
+.content form{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.content form input{
+  background-color: rgba(216, 222, 224, 1);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.content form input::placeholder{
+  color: black;
+}
+.content{
+    margin-top: 100px;
+}
+.content li{
+  margin: 10px;
+}
+.content img{
+  margin-top: -50px !important;
+}
